@@ -41,7 +41,7 @@ public class FastDFSClient {
      * @throws Exception
      */
     public String uploadFile(String fileName, String extName, NameValuePair[] metas) throws Exception {
-        String result = storageClient.upload_file1(fileName, extName, metas);
+        String result = storageClient.uploadFile1(fileName, extName, metas);
         return result;
     }
 
@@ -70,7 +70,7 @@ public class FastDFSClient {
      */
     public String uploadFile(byte[] fileContent, String extName, NameValuePair[] metas) throws Exception {
 
-        String result = storageClient.upload_file1(fileContent, extName, metas);
+        String result = storageClient.uploadFile1(fileContent, extName, metas);
         return result;
     }
 

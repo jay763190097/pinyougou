@@ -11,9 +11,11 @@
 	<dependencies>
 		<!-- 文件上传组件 -->
 		<dependency>
-			<groupId>org.csource.fastdfs</groupId>
-			<artifactId>fastdfs</artifactId>
+			<groupId>in.clouthink.repack</groupId>
+			<artifactId>fastdfs-client-java</artifactId>
+			<version>1.29.4</version>
 		</dependency>
+
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
